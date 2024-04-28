@@ -4,7 +4,7 @@
   "private": true,
   "description": "Single Page Apps for GitHub Pages",
   "scripts": {
-    "start": "webpack-dev-server --host 0.0.0.0 --disable-host-check --open",
+    "start": "webpack-dev-server --host 0.0.0.0 --disable-host-check --open-page OwnST-Public",
     "build": "webpack -p"
   },
   "repository": {
@@ -17,7 +17,6 @@
     "@radix-ui/react-icons": "^1.0.3",
     "@stitches/react": "^0.1.9",
     "prop-types": "^15.7.2",
-    "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-interactive": "^1.1.0",
     "react-router-dom": "^5.2.0",
